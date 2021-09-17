@@ -1,6 +1,6 @@
 package laba2;
 import java.io.*;
-public class ‰‚‡ {
+public class –¥–≤–∞ {
 	public static void main(String[] args) {
         try (BufferedReader reader = new BufferedReader(new FileReader("E://PSTU//laba2_oborpr/txt.txt"))) {
             long[] unicodeArray = new long[65536];

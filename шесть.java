@@ -1,11 +1,11 @@
 package laba2;
 import java.io.*;
 import static java.lang.System.out;
-public class шесть {
+public class С€РµСЃС‚СЊ {
 	public static void main(String args[]) throws FileNotFoundException, IOException{
-		FileOutputStream file_O_Str2 = new FileOutputStream("D://eclipse//aa//foo.txt", true);//сюда запишет
-		File file1 = new File("D://eclipse//aa//fo1.txt");//из этого будет записывать
-		File file2 = new File("D://eclipse//aa//foo.txt");//в файле что то есть, оно останется
+		FileOutputStream file_O_Str2 = new FileOutputStream("D://eclipse//aa//foo.txt", true);///СЃСЋРґР° Р·Р°РїРёС€РµС‚
+		File file1 = new File("D://eclipse//aa//fo1.txt");//РёР· СЌС‚РѕРіРѕ Р±СѓРґРµС‚ Р·Р°РїРёСЃС‹РІР°С‚СЊ
+		File file2 = new File("D://eclipse//aa//foo.txt");//РІ С„Р°Р№Р»Рµ С‡С‚Рѕ С‚Рѕ РµСЃС‚СЊ, РѕРЅРѕ РѕСЃС‚Р°РЅРµС‚СЃСЏ
 		FileInputStream file_In_Str2  = new FileInputStream(file2);
 		FileInputStream file_In_Str1  = new FileInputStream(file1);
 		int K = (int) file2.length();
@@ -20,10 +20,10 @@ public class шесть {
 		String t = new String(foo);
 		String S = new String(fo1);
 		
-		out.println("из файла foo");
+		out.println("РёР· С„Р°Р№Р»Р° foo");
 		out.println(t);
 		out.println();
-		out.println("из файла fo1");
+		out.println("РёР· С„Р°Р№Р»Р° fo1");
 		out.println(S);
 	   }
 }

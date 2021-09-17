@@ -1,7 +1,7 @@
 package laba2;
 import java.io.*;
 import java.util.Scanner;
-public class один {
+public class РѕРґРёРЅ {
 	public static void main(String args[]) throws FileNotFoundException, IOException {
 		File file = new File("E://PSTU//laba2_oborpr/", "txt.txt");
 		try (FileInputStream reader = new FileInputStream(file)) {
